@@ -1,0 +1,13 @@
+# 1. Base image
+FROM nginx:alpine
+
+# 2. Másold be a fájlokat a megfelelő helyre
+COPY index.html /usr/share/nginx/html/index.html
+COPY style.css /usr/share/nginx/html/style.css
+COPY script.js /usr/share/nginx/html/script.js
+
+# 3. (Opcionális) Ha saját nginx.conf kell, ide másolhatod
+# COPY nginx.conf /etc/nginx/nginx.conf
+
+# 4. Port kitétel (nem kötelező, de informatív)
+EXPOSE 80

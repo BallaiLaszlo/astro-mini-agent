@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Social Media Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Social Media Agent</h1>
+
+    <form id="postForm">
+      <div class="form-group">
+        <label for="message">Kampányüzenet:</label>
+        <textarea id="message" required placeholder="Írd be a kampányüzenetet..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="audience">Célközönség:</label>
+        <input type="text" id="audience" required placeholder="Célközönség megadása" />
+      </div>
+
+      <div class="form-group">
+        <label for="tone">Hangnem:</label>
+        <input type="text" id="tone" required placeholder="Pl. barátságos, hivatalos..." />
+      </div>
+
+      <div class="form-group">
+        <label for="emojis">Használjon emojikat?</label>
+        <select id="emojis">
+          <option value="true">Igen</option>
+          <option value="false">Nem</option>
+        </select>
+      </div>
+
+      <button type="submit" id="generateBtn">Szöveg generálása</button>
+    </form>
+
+    <h2>Eredmény:</h2>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

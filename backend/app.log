@@ -1,0 +1,25 @@
+2025-05-16 10:44:52,672 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2025-05-16 10:44:52,673 INFO [33mPress CTRL+C to quit[0m
+2025-05-16 10:45:04,670 INFO 172.18.0.1 - - [16/May/2025 10:45:04] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 10:45:04,674 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:45:04,675 INFO Kampányüzenet: aaaaaaa
+2025-05-16 10:45:04,676 INFO Célközönség: aaa
+2025-05-16 10:45:04,676 INFO Hangnem: aaaa
+2025-05-16 10:45:04,677 INFO Használjon emojikat: true
+2025-05-16 10:45:04,679 INFO 172.18.0.1 - - [16/May/2025 10:45:04] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:45:27,643 INFO 172.18.0.1 - - [16/May/2025 10:45:27] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 10:45:27,647 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:45:27,648 INFO Kampányüzenet: aaaaaaasfngjdfngb
+2025-05-16 10:45:27,648 INFO Célközönség: aaa,mfdbdmf
+2025-05-16 10:45:27,648 INFO Hangnem: aaaadfm
+2025-05-16 10:45:27,649 INFO Használjon emojikat: false
+2025-05-16 10:45:27,650 INFO 172.18.0.1 - - [16/May/2025 10:45:27] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:45:27,799 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:45:27,799 INFO Kampányüzenet: aaaaaaasfngjdfngb
+2025-05-16 10:45:27,800 INFO Célközönség: aaa,mfdbdmf
+2025-05-16 10:45:27,801 INFO Hangnem: aaaadfm
+2025-05-16 10:45:27,801 INFO Használjon emojikat: false
+2025-05-16 10:45:27,802 INFO 172.18.0.1 - - [16/May/2025 10:45:27] "POST /generate HTTP/1.1" 200 -
