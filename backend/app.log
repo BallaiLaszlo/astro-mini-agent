@@ -23,3 +23,83 @@
 2025-05-16 10:45:27,801 INFO Hangnem: aaaadfm
 2025-05-16 10:45:27,801 INFO Használjon emojikat: false
 2025-05-16 10:45:27,802 INFO 172.18.0.1 - - [16/May/2025 10:45:27] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:59:06,892 INFO 172.18.0.1 - - [16/May/2025 10:59:06] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 10:59:06,897 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:59:06,898 INFO Kampányüzenet: asd
+2025-05-16 10:59:06,898 INFO Célközönség: ds
+2025-05-16 10:59:06,899 INFO Hangnem: sd
+2025-05-16 10:59:06,899 INFO Használjon emojikat: true
+2025-05-16 10:59:06,901 INFO 172.18.0.1 - - [16/May/2025 10:59:06] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:59:22,471 INFO 172.18.0.1 - - [16/May/2025 10:59:22] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 10:59:22,476 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:59:22,476 INFO Kampányüzenet: asd
+2025-05-16 10:59:22,477 INFO Célközönség: ds
+2025-05-16 10:59:22,478 INFO Hangnem: sd
+2025-05-16 10:59:22,478 INFO Használjon emojikat: true
+2025-05-16 10:59:22,479 INFO 172.18.0.1 - - [16/May/2025 10:59:22] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:59:27,867 INFO 172.18.0.1 - - [16/May/2025 10:59:27] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 10:59:27,871 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:59:27,872 INFO Kampányüzenet: asd
+2025-05-16 10:59:27,872 INFO Célközönség: ds
+2025-05-16 10:59:27,873 INFO Hangnem: sd
+2025-05-16 10:59:27,873 INFO Használjon emojikat: true
+2025-05-16 10:59:27,873 INFO 172.18.0.1 - - [16/May/2025 10:59:27] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:59:28,550 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:59:28,550 INFO Kampányüzenet: asd
+2025-05-16 10:59:28,550 INFO Célközönség: ds
+2025-05-16 10:59:28,551 INFO Hangnem: sd
+2025-05-16 10:59:28,551 INFO Használjon emojikat: true
+2025-05-16 10:59:28,553 INFO 172.18.0.1 - - [16/May/2025 10:59:28] "POST /generate HTTP/1.1" 200 -
+2025-05-16 10:59:28,743 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 10:59:28,743 INFO Kampányüzenet: asd
+2025-05-16 10:59:28,743 INFO Célközönség: ds
+2025-05-16 10:59:28,744 INFO Hangnem: sd
+2025-05-16 10:59:28,744 INFO Használjon emojikat: true
+2025-05-16 10:59:28,745 INFO 172.18.0.1 - - [16/May/2025 10:59:28] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:01:00,529 INFO 172.18.0.1 - - [16/May/2025 11:01:00] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:01:00,533 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:01:00,533 INFO Kampányüzenet: asd
+2025-05-16 11:01:00,533 INFO Célközönség: sdf
+2025-05-16 11:01:00,534 INFO Hangnem: asdd
+2025-05-16 11:01:00,534 INFO Használjon emojikat: true
+2025-05-16 11:01:00,535 INFO 172.18.0.1 - - [16/May/2025 11:01:00] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:01:52,967 INFO 172.18.0.1 - - [16/May/2025 11:01:52] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:01:52,972 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:01:52,973 INFO Kampányüzenet: asd
+2025-05-16 11:01:52,973 INFO Célközönség: dsa
+2025-05-16 11:01:52,974 INFO Hangnem: dsaa
+2025-05-16 11:01:52,974 INFO Használjon emojikat: true
+2025-05-16 11:01:52,975 INFO 172.18.0.1 - - [16/May/2025 11:01:52] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:02:28,931 INFO 172.18.0.1 - - [16/May/2025 11:02:28] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:02:28,935 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:02:28,936 INFO Kampányüzenet: asd
+2025-05-16 11:02:28,936 INFO Célközönség: das
+2025-05-16 11:02:28,937 INFO Hangnem: das
+2025-05-16 11:02:28,937 INFO Használjon emojikat: true
+2025-05-16 11:02:28,938 INFO 172.18.0.1 - - [16/May/2025 11:02:28] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:02:29,171 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:02:29,172 INFO Kampányüzenet: asd
+2025-05-16 11:02:29,172 INFO Célközönség: das
+2025-05-16 11:02:29,172 INFO Hangnem: das
+2025-05-16 11:02:29,173 INFO Használjon emojikat: true
+2025-05-16 11:02:29,174 INFO 172.18.0.1 - - [16/May/2025 11:02:29] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:02:36,805 INFO 172.18.0.1 - - [16/May/2025 11:02:36] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:02:36,810 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:02:36,810 INFO Kampányüzenet: asd
+2025-05-16 11:02:36,811 INFO Célközönség: das
+2025-05-16 11:02:36,811 INFO Hangnem: das
+2025-05-16 11:02:36,812 INFO Használjon emojikat: true
+2025-05-16 11:02:36,813 INFO 172.18.0.1 - - [16/May/2025 11:02:36] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:02:39,017 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:02:39,017 INFO Kampányüzenet: asd
+2025-05-16 11:02:39,018 INFO Célközönség: das
+2025-05-16 11:02:39,018 INFO Hangnem: das
+2025-05-16 11:02:39,019 INFO Használjon emojikat: true
+2025-05-16 11:02:39,020 INFO 172.18.0.1 - - [16/May/2025 11:02:39] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:02:49,002 INFO 172.18.0.1 - - [16/May/2025 11:02:49] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:02:49,006 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:02:49,006 INFO Kampányüzenet: asd
+2025-05-16 11:02:49,007 INFO Célközönség: das
+2025-05-16 11:02:49,007 INFO Hangnem: das
+2025-05-16 11:02:49,008 INFO Használjon emojikat: true
+2025-05-16 11:02:49,009 INFO 172.18.0.1 - - [16/May/2025 11:02:49] "POST /generate HTTP/1.1" 200 -
