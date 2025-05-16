@@ -230,3 +230,23 @@
 2025-05-16 11:29:48,757 INFO Hangnem: szoveg1
 2025-05-16 11:29:48,758 INFO Használjon emojikat: true
 2025-05-16 11:29:48,759 INFO 172.18.0.1 - - [16/May/2025 11:29:48] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:32:29,261 INFO 172.18.0.1 - - [16/May/2025 11:32:29] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:32:29,265 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:32:29,266 INFO Kampányüzenet: szoveg1
+2025-05-16 11:32:29,266 INFO Célközönség: szoveg1
+2025-05-16 11:32:29,267 INFO Hangnem: szoveg1
+2025-05-16 11:32:29,268 INFO Használjon emojikat: true
+2025-05-16 11:32:29,269 INFO 172.18.0.1 - - [16/May/2025 11:32:29] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:32:32,048 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:32:32,049 INFO Kampányüzenet: szoveg1
+2025-05-16 11:32:32,049 INFO Célközönség: szoveg1
+2025-05-16 11:32:32,050 INFO Hangnem: szoveg1
+2025-05-16 11:32:32,050 INFO Használjon emojikat: true
+2025-05-16 11:32:32,051 INFO 172.18.0.1 - - [16/May/2025 11:32:32] "POST /generate HTTP/1.1" 200 -
+2025-05-16 11:32:41,125 INFO 172.18.0.1 - - [16/May/2025 11:32:41] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-16 11:32:41,129 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-16 11:32:41,129 INFO Kampányüzenet: szoveg1
+2025-05-16 11:32:41,130 INFO Célközönség: szoveg1
+2025-05-16 11:32:41,130 INFO Hangnem: szoveg1
+2025-05-16 11:32:41,131 INFO Használjon emojikat: true
+2025-05-16 11:32:41,132 INFO 172.18.0.1 - - [16/May/2025 11:32:41] "POST /generate HTTP/1.1" 200 -
