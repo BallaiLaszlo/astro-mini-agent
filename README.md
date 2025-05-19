@@ -20,8 +20,11 @@ cd projekt-nev
 
 Hozz létre egy .env fájlt a projekt gyökérkönyvtárában a következő tartalommal:
 
-env:
+
+```
 COHERE_API_KEY=ide_írd_be_a_saját_api_kulcsodat
+
+```
 
 
 ### 4. indítás docker compose -al 
