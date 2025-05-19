@@ -1,4 +1,4 @@
-# 🐾 Állatotthon Önkéntes Toborzó – AI Tartalomgenerátor
+# AI Tartalomgenerátor
 
 Ez a projekt egy Flask-alapú backend és egy frontend alkalmazásból áll, amelyek együttműködve lehetővé teszik közösségi média posztok generálását a Cohere AI segítségével.
 
