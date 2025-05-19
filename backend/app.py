@@ -32,8 +32,16 @@ logging.basicConfig(
 # Cohere kliens inicializálása
 client = ClientV2(api_key=COHERE_API_KEY)
 
-# Emoji eltávolító util
 def strip_emojis(text: str) -> str:
+    """
+    Eltávolítja az összes Unicode emoji karaktert a szövegből.
+
+    Paraméterek:
+        text (str): A bemeneti szöveg, amelyből el kell távolítani az emojikat.
+
+    Visszatér:
+        str: A megtisztított szöveg emojik nélkül.
+    """
     pattern = re.compile(
         "["
         "\U0001F600-\U0001F64F"
@@ -45,6 +53,32 @@ def strip_emojis(text: str) -> str:
 
 # AI generáló függvény
 def generate_ai_message(message, audience, tone, use_emojis):
+    """
+    Meghívja a Cohere AI-t, hogy egy marketing kampányüzenetből több közösségi média posztot generáljon
+    különböző platformokra (Facebook, Instagram, LinkedIn, X), magyar nyelven.
+
+    Paraméterek:
+        message (str): A marketing kampányüzenet.
+        audience (str): A célközönség megnevezése.
+        tone (str): A kívánt hangnem (pl. barátságos, szakmai, stb.).
+        use_emojis (bool): Emojik használatának engedélyezése vagy tiltása.
+
+    Visszatér:
+        dict: A generált posztokat tartalmazó szótár, vagy hibaüzenet egy hiba esetén.
+            Példa:
+            {
+                "facebook": "szöveg",
+                "instagram": "szöveg",
+                "linkedin": "szöveg",
+                "x": "szöveg"
+            }
+            vagy hiba esetén:
+            {
+                "error": "Hibás formátumú AI válasz",
+                "raw_response": "...",
+                "debug_prompt": "..."
+            }
+    """
     logging.info("Elkezdem meghívni a Cohere API-t...")
     prompt = f"""
     Kérlek generálj közösségi média posztokat magyar nyelven KIZÁRÓLAG JSON formátumban!
@@ -109,6 +143,23 @@ def generate_ai_message(message, audience, tone, use_emojis):
 
 @app.route('/generate', methods=['POST', 'OPTIONS'])
 def generate():
+    """
+    HTTP POST végpont, amely JSON-ben kapja a bemenetet:
+        {
+            "message": "kampányüzenet",
+            "audience": "célközönség",
+            "tone": "hangnem",
+            "emojis": true/false
+        }
+
+    Meghívja a `generate_ai_message()` függvényt, majd visszaadja az eredményt JSON válaszként.
+
+    Ha az OPTIONS metódus érkezik (pl. CORS preflight kérés), akkor 200 OK választ ad vissza.
+
+    Visszatér:
+        Response: JSON válasz, amely tartalmazza a generált posztokat vagy hibaüzenetet.
+    """
+
     if request.method == 'OPTIONS':
         return '', 200
     data = request.get_json(silent=True) or {}
