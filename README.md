@@ -55,6 +55,8 @@ A rendszer automatikusan legenerálja a közösségi posztokat Facebookra, Insta
 
 
 Tesztelés curl-lal vagy PowerShellből
+
+```
 PowerShell példa:
 Invoke-WebRequest -Uri "http://localhost:5000/generate" -Method POST `
 -ContentType "application/json" `
@@ -65,6 +67,7 @@ Invoke-WebRequest -Uri "http://localhost:5000/generate" -Method POST `
     emojis = $true
 } | ConvertTo-Json -Depth 10) | Select-Object -Expand Content
 
+```
 
 
 
