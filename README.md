@@ -1,4 +1,4 @@
-# 🐾 Állatotthon Önkéntes Toborzó – AI Tartalomgenerátor
+# AI Tartalomgenerátor
 
 Ez a projekt egy Flask-alapú backend és egy frontend alkalmazásból áll, amelyek együttműködve lehetővé teszik közösségi média posztok generálását a Cohere AI segítségével.
 
@@ -20,8 +20,11 @@ cd projekt-nev
 
 Hozz létre egy .env fájlt a projekt gyökérkönyvtárában a következő tartalommal:
 
-env:
+
+```
 COHERE_API_KEY=ide_írd_be_a_saját_api_kulcsodat
+
+```
 
 
 ### 4. indítás docker compose -al 
@@ -36,7 +39,7 @@ a backendet a http://localhost:5000 címen,
 
 a frontendet a http://localhost:3000 címen.
 
-Használat
+### Használat
 Nyisd meg a böngésződben a http://localhost:3000 oldalt.
 
 Add meg a bemeneteket:
@@ -55,6 +58,8 @@ A rendszer automatikusan legenerálja a közösségi posztokat Facebookra, Insta
 
 
 Tesztelés curl-lal vagy PowerShellből
+
+```
 PowerShell példa:
 Invoke-WebRequest -Uri "http://localhost:5000/generate" -Method POST `
 -ContentType "application/json" `
@@ -65,6 +70,7 @@ Invoke-WebRequest -Uri "http://localhost:5000/generate" -Method POST `
     emojis = $true
 } | ConvertTo-Json -Depth 10) | Select-Object -Expand Content
 
+```
 
 
 
