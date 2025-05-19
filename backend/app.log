@@ -250,3 +250,169 @@
 2025-05-16 11:32:41,130 INFO Hangnem: szoveg1
 2025-05-16 11:32:41,131 INFO Használjon emojikat: true
 2025-05-16 11:32:41,132 INFO 172.18.0.1 - - [16/May/2025 11:32:41] "POST /generate HTTP/1.1" 200 -
+2025-05-18 12:02:16,780 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-05-18 12:02:16,780 INFO [33mPress CTRL+C to quit[0m
+2025-05-18 12:02:40,739 INFO 172.18.0.1 - - [18/May/2025 12:02:40] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:02:40,744 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:02:40,744 INFO Kampányüzenet: AAA
+2025-05-18 12:02:40,745 INFO Célközönség: DDD
+2025-05-18 12:02:40,745 INFO Hangnem: DDD
+2025-05-18 12:02:40,746 INFO Használjon emojikat: true
+2025-05-18 12:02:40,747 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:02:40,748 INFO 172.18.0.1 - - [18/May/2025 12:02:40] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:09:08,301 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-05-18 12:09:08,301 INFO [33mPress CTRL+C to quit[0m
+2025-05-18 12:12:03,498 INFO 172.18.0.1 - - [18/May/2025 12:12:03] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:12:03,502 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:12:03,503 INFO Kampányüzenet: AAA
+2025-05-18 12:12:03,503 INFO Célközönség: DDD
+2025-05-18 12:12:03,504 INFO Hangnem: DDD
+2025-05-18 12:12:03,505 INFO Használjon emojikat: true
+2025-05-18 12:12:03,506 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:12:03,507 INFO 172.18.0.1 - - [18/May/2025 12:12:03] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:13:51,509 INFO 172.18.0.1 - - [18/May/2025 12:13:51] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:13:51,514 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:13:51,514 INFO Kampányüzenet: globális valós idejű stratégiai játék indul
+2025-05-18 12:13:51,515 INFO Célközönség: gamerek
+2025-05-18 12:13:51,515 INFO Hangnem: felhype-olt
+2025-05-18 12:13:51,516 INFO Használjon emojikat: true
+2025-05-18 12:13:51,517 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:13:51,518 INFO 172.18.0.1 - - [18/May/2025 12:13:51] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:15:56,737 INFO 172.18.0.1 - - [18/May/2025 12:15:56] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:15:56,742 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:15:56,742 INFO Kampányüzenet: globális valós idejű stratégiai játék
+2025-05-18 12:15:56,742 INFO Célközönség: gamerek
+2025-05-18 12:15:56,743 INFO Hangnem: felhype-olt
+2025-05-18 12:15:56,744 INFO Használjon emojikat: true
+2025-05-18 12:15:56,744 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:15:56,746 INFO 172.18.0.1 - - [18/May/2025 12:15:56] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:16:10,783 INFO 172.18.0.1 - - [18/May/2025 12:16:10] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:16:10,787 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:16:10,788 INFO Kampányüzenet: globális valós idejű stratégiai játék
+2025-05-18 12:16:10,788 INFO Célközönség: gamerek
+2025-05-18 12:16:10,789 INFO Hangnem: felhype-olt
+2025-05-18 12:16:10,789 INFO Használjon emojikat: true
+2025-05-18 12:16:10,790 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:16:10,792 INFO 172.18.0.1 - - [18/May/2025 12:16:10] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:16:44,510 INFO 172.18.0.1 - - [18/May/2025 12:16:44] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:16:44,515 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:16:44,515 INFO Kampányüzenet: globális valós idejű stratégiai játék
+2025-05-18 12:16:44,516 INFO Célközönség: gamerek
+2025-05-18 12:16:44,516 INFO Hangnem: felhype-olt
+2025-05-18 12:16:44,517 INFO Használjon emojikat: true
+2025-05-18 12:16:44,518 ERROR Hiba történt az AI generálás során: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 12:16:44,519 INFO 172.18.0.1 - - [18/May/2025 12:16:44] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:18:59,648 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2025-05-18 12:18:59,649 INFO [33mPress CTRL+C to quit[0m
+2025-05-18 12:19:24,883 INFO 172.18.0.1 - - [18/May/2025 12:19:24] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:19:24,888 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:19:24,888 INFO Kampányüzenet: valós idejű stratégiai játék készül
+2025-05-18 12:19:24,888 INFO Célközönség: gamerek
+2025-05-18 12:19:24,889 INFO Hangnem: felhype-olt
+2025-05-18 12:19:24,890 INFO Használjon emojikat: true
+2025-05-18 12:19:26,311 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-05-18 12:19:26,313 ERROR Hiba történt az AI generálás során: Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-05-18 12:19:26,314 INFO 172.18.0.1 - - [18/May/2025 12:19:26] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:20:25,860 INFO 172.18.0.1 - - [18/May/2025 12:20:25] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:20:25,865 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:20:25,865 INFO Kampányüzenet: valós idejű stratégiai játék készül
+2025-05-18 12:20:25,866 INFO Célközönség: gamerek
+2025-05-18 12:20:25,866 INFO Hangnem: felhype-olt
+2025-05-18 12:20:25,867 INFO Használjon emojikat: true
+2025-05-18 12:20:26,213 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-05-18 12:20:26,217 ERROR Hiba történt az AI generálás során: Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-05-18 12:20:26,217 INFO 172.18.0.1 - - [18/May/2025 12:20:26] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:20:52,034 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2025-05-18 12:20:52,034 INFO [33mPress CTRL+C to quit[0m
+2025-05-18 12:21:19,204 INFO 172.18.0.1 - - [18/May/2025 12:21:19] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:21:19,208 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:21:19,209 INFO Kampányüzenet: valós idejű stratégiai játékhoz emberek keresése
+2025-05-18 12:21:19,209 INFO Célközönség: gamerek
+2025-05-18 12:21:19,210 INFO Hangnem: felhype-olt
+2025-05-18 12:21:19,210 INFO Használjon emojikat: true
+2025-05-18 12:21:19,820 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 12:21:19,821 INFO Retrying request to /chat/completions in 0.447239 seconds
+2025-05-18 12:21:20,498 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 12:21:20,499 INFO Retrying request to /chat/completions in 0.818211 seconds
+2025-05-18 12:21:21,551 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 12:21:21,552 ERROR Hiba történt az AI generálás során: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-05-18 12:21:21,553 INFO 172.18.0.1 - - [18/May/2025 12:21:21] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-05-18 12:29:59,338 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2025-05-18 12:29:59,338 INFO [33mPress CTRL+C to quit[0m
+2025-05-18 12:30:28,327 INFO 172.18.0.1 - - [18/May/2025 12:30:28] "OPTIONS /generate HTTP/1.1" 200 -
+2025-05-18 12:30:28,333 INFO Generálás indítva ezekkel az adatokkal:
+2025-05-18 12:30:28,333 INFO Kampányüzenet: valós idejű stratégiai játékhoz emberek keresése
+2025-05-18 12:30:28,334 INFO Célközönség: gamerek
+2025-05-18 12:30:28,334 INFO Hangnem: felhype-olt
+2025-05-18 12:30:28,335 INFO Használjon emojikat: true
+2025-05-18 12:30:28,543 ERROR Hiba történt az AI generálás során: HF API hiba: 401 - {"error":"Invalid credentials in Authorization header"}
+2025-05-18 12:30:28,544 INFO 172.18.0.1 - - [18/May/2025 12:30:28] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -

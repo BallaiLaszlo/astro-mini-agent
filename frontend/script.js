@@ -1,82 +1,40 @@
-async function generate() {
-  const message = document.getElementById("message").value.trim();
+// script.js
+document.getElementById("postForm").addEventListener("submit", async e => {
+  e.preventDefault();
+
+  const message  = document.getElementById("message").value.trim();
   const audience = document.getElementById("audience").value.trim();
-  const tone = document.getElementById("tone").value.trim();
-  const emojis = document.getElementById("emojis").value;
+  const tone     = document.getElementById("tone").value.trim();
+  // select.value adja vissza a "true"/"false" stringet
+  const emojis   = document.getElementById("emojis").value === "true";
 
-  const data = { message, audience, tone, emojis, regenerate: false };
-
-  console.log("Generálás - küldöm a backendnek:", data);
+  const payload = { message, audience, tone, emojis };
 
   try {
-    const response = await fetch('http://localhost:5000/generate', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
+    const resp = await fetch("http://localhost:5000/generate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    const data = await resp.json();
+    const container = document.getElementById("result");
+    container.innerHTML = "";
+
+    if (!resp.ok || data.error) {
+      container.textContent = `Hiba: ${data.error || resp.statusText}`;
+      return;
+    }
+
+    ["facebook","instagram","linkedin","x"].forEach(platform => {
+      const h3 = document.createElement("h3");
+      h3.textContent = platform.charAt(0).toUpperCase() + platform.slice(1);
+      const p = document.createElement("p");
+      p.textContent = data[platform] || "Nincs adat";
+      container.append(h3, p);
     });
 
-    const result = await response.json();
-    const resultDiv = document.getElementById("result");
-
-    if (response.ok) {
-      resultDiv.textContent = `Backend válasz: ${result.message}`;
-
-      // Gomb szöveg és eseménykezelő csere
-      const btn = document.getElementById("actionBtn");
-      btn.textContent = "Újragenerálás";
-      btn.removeEventListener("click", generateClickHandler);
-      btn.addEventListener("click", regenerateClickHandler);
-    } else {
-      resultDiv.textContent = `Hiba: ${result.message || 'Ismeretlen hiba'}`;
-    }
-  } catch (error) {
-    console.error('Hiba a kommunikáció során:', error);
-    document.getElementById("result").textContent = "Nem sikerült kapcsolatot létesíteni a backenddel.";
+  } catch (err) {
+    console.error("Kommunikációs hiba:", err);
+    document.getElementById("result").textContent = "Nem sikerült kapcsolódni a szerverhez.";
   }
-}
-
-async function regenerate() {
-  const message = document.getElementById("message").value.trim();
-  const audience = document.getElementById("audience").value.trim();
-  const tone = document.getElementById("tone").value.trim();
-  const emojis = document.getElementById("emojis").value;
-
-  const data = { message, audience, tone, emojis, regenerate: true };
-
-  console.log("Újragenerálás - küldöm a backendnek:", data);
-
-  try {
-    const response = await fetch('http://localhost:5000/generate', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-
-    const result = await response.json();
-    const resultDiv = document.getElementById("result");
-
-    if (response.ok) {
-      resultDiv.textContent = `Backend válasz: ${result.message}`;
-    } else {
-      resultDiv.textContent = `Hiba: ${result.message || 'Ismeretlen hiba'}`;
-    }
-  } catch (error) {
-    console.error('Hiba a kommunikáció során:', error);
-    document.getElementById("result").textContent = "Nem sikerült kapcsolatot létesíteni a backenddel.";
-  }
-}
-
-// Külön eseménykezelők, hogy könnyű legyen eltávolítani őket
-const generateClickHandler = async (e) => {
-  e.preventDefault();
-  await generate();
-};
-const regenerateClickHandler = async (e) => {
-  e.preventDefault();
-  await regenerate();
-};
-
-// Esemény hozzárendelés az űrlap submit eseményére (az egy gomb miatt)
-document.getElementById("postForm").addEventListener("submit", generateClickHandler);
-
-// Így a gomb az űrlapon belül lesz, submitként működik, az első generálás elküldi az adatokat
+});
