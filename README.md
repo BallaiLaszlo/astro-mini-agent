@@ -36,7 +36,7 @@ a backendet a http://localhost:5000 címen,
 
 a frontendet a http://localhost:3000 címen.
 
-Használat
+### Használat
 Nyisd meg a böngésződben a http://localhost:3000 oldalt.
 
 Add meg a bemeneteket:
